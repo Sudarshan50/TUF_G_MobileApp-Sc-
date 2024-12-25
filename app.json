@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Tuf VScanner",
+    "scheme": "tuf-vscanner",
+    "slug": "tuf-vscanner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF9F6"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.tuf.vouchers",
+      "bundleIdentifier": "com.tuf.vouchers"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#FAF9F6"
+      },
+      "package": "com.tuf.vouchers"
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "58969ef5-89fa-4cd4-ae9e-491c6b1433d3"
+      }
+    },
+    "owner": "suda_052"
+  }
+}
